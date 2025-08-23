@@ -1,0 +1,21 @@
+# Ignore all node_modules directories recursively
+**/node_modules/
+
+# Ignore all dist directories recursively
+**/dist/
+
+# Ignore all package-lock.json files recursively
+**/package-lock.json
+
+# Ignore compiled JavaScript files (if any were compiled)
+**/*.js
+
+# Ignore TypeScript build output (.tsbuildinfo if you're using composite projects)
+**/*.tsbuildinfo
+
+# Optional: ignore VSCode settings if using VSCode
+.vscode/
+
+# Optional: ignore Mac or Windows system files
+.DS_Store
+Thumbs.db
